@@ -1,0 +1,2 @@
+# AggregateAssertivenessTransitions
+アサーティブな会話をしている箇所，していない箇所のアンケートデータを集計するプログラム
