@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: AggregateAssertivenessTransitions
+    build:
+      dockerfile: .docker/Dockerfile
+      context: .
+    working_dir: /app
+    tty: true
+    volumes:
+      - ./:/app

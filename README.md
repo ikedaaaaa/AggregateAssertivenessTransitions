@@ -13,7 +13,7 @@ docker compose -f compose.yml up  -d
 
 ## 2. コンテナ内に入る．
 ``` bash
-docker exec -it ActivityLabelTabulation bash   
+docker exec -it AggregateAssertivenessTransitions bash   
 ```
 
 ## 3. コンテナ内でpythonファイルを実行する
