@@ -63,11 +63,11 @@ pip freeze > requirements.txt
 ## ファイルの中身
 ```
 assertiveness_transitions_{数字}_first_data.csv
-cid,assertiveness
-00_00,1
-00_01,-2
+cid,sid,assertiveness
+00_00,00_00.wav,1
+00_01,00_01.wav,-2
 ...
-00_30,-3
+00_30,00_30.wav,-3
 
 target_conversation_degree_{数字}_first_data.csv
 conv_name,TargetConversationDegree
