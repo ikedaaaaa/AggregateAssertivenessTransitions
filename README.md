@@ -147,10 +147,10 @@ cid,AverageAssertiveness
 14_59,2.2
 ```
 
-### 3.アサーティブ度合いが負の値であるものを抽出する
-assertiveness_transitions_average_dfのなかで，assertivenessが負の値になっているcidを集める．
+### 3.アサーティブ度合いが4未満の値であるものを抽出する
+assertiveness_transitions_average_dfのなかで，assertivenessが4未満になっているcidを集める．
 
-変数をいじってcidを集める閾値を変更できるようにしてほしい．（assertivenessが-1以下のcidを集めるなど）
+変数をいじってcidを集める閾値を変更できるようにしてほしい．（assertivenessが2以下のcidを集めるなど）
 
 その結果を「unassertiveness_conv_df」に格納する
 
