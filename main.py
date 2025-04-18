@@ -58,11 +58,11 @@ def calc(personal_assertiveness_transitions_list):
 def main(args):
 
     #ファイルのパス
-    base_directory = "../実験_アサーティブの遷移/03実験後データ/" #コードからの相対パス
+    base_directory = "data/実験_アサーティブの遷移/03実験後データ/" #コードからの相対パス
 
-    print(load_csv(base_directory))
+    # print(load_csv(base_directory))
 
-    print(calc(load_csv(base_directory)))
+    # print(calc(load_csv(base_directory)))
 
     sorted_df = calc(load_csv(base_directory))
 
